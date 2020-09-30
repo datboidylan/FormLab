@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Create an Account!</h1>
+
+    <fieldset>
+        <form action = "confirm.html">
+            <fieldset style="border: 0;"> 
+                <legend>What is your Name?</legend>
+
+                <label for = "firstname">First Name:</label><br>
+                <input type = "text" id = "firstname" name = "user_firstName"><br>
+                <br>
+
+                <label for = "lastname">Last Name:</label><br>
+                <input type = "text" id = "lastname" name = "user_lastName"><br>
+                <br>      
+            </fieldset>
+
+            <fieldset style="border: 0;">
+                <legend>Enter your email and provide a password:</legend>
+                <label for = "mail">Email Address:</label><br>
+                <input type = "email" id = "mail" name = "user_email"><br>
+                <br>
+
+                <label for = "pass">Password:</label><br>
+                <input type = "password" id = "pass" name = "user_password"><br>
+                <br>
+
+                <label for = "confirmPass">Confirm Password</label><br>
+                <input type = "password" id="confirmPass" name = "user_password"><br>
+                <br>
+            </fieldset>
+
+            <fieldset style="border: 0;">
+                <legend>Enter your address:</legend>
+                <label for = "street1">Street Address 1: </label><br>
+                <input type = "text" id = "street1" name = "user_street"><br>
+                <br>
+
+                <label for = "street2">Street Address 2: </label><br>
+                <input type="text" id = "street2" name="user_street"><br>
+                <br>
+
+                <label for="city">City:</label><br>
+                <input type = "text" id = "city" name = "user_city"><br>
+                <br>
+
+                <label for="state">State:</label><br>
+                <input type = "text" id = "state" name = "user_state"><br>
+                <br>
+
+                <label for="zip">Zip Code:</label><br>
+                <input type = "text" id = "zip" name  = "user_zip"><br>
+                <br>
+            </fieldset>
+
+            <fieldset style="border: 0;">
+                <legend>What Language do you prefer?</legend>
+
+                <input type = "radio" id = "eng" name = "language_preferred" value="eng">
+                <label for="eng">English</label>
+
+                <input type = "radio" id = "spain" name = "language_preferred" value="spain">
+                <label for="spain">Spanish</label>
+                
+                <br>
+
+                <input type = "radio" id = "jap" name = "language_preferred" value="jap">
+                <label for="jap">Japanese</label>
+
+                <input type = "radio" id = "china" name = "language_preferred" value="china">
+                <label for="china">Chinese</label>
+            </fieldset>
+
+            <fieldset style = "border: 0;">
+                <legend>Choose your services</legend>
+                
+                <input type = "checkbox" id = "pet_taxidermy" name = "services" value = "pet_taxidermy">
+                <label for="pet_taxidermy">Pet Taxidermy</label>
+
+                <input type = "checkbox" id = "cremation" name = "services" value = "cremation"> 
+                <label for = "cremation">Pet Cremation</label>
+              
+                <br>
+
+                <input type = "checkbox" id = "oil" name = "services" value = "oil">
+                <label for = "oil">Oil Change</label>
+
+                <input type = "checkbox" id = "delivery" name = "services" value="delivery">
+                <label for = "delivery">Chinese food Delivery</label>
+
+                <br>
+
+            </fieldset>
+
+            <fieldset style="border: 0">
+                <legend>Enter a date and time:</legend>
+                
+                <label for = "date">Date:</label><br>
+                <input type = "text" id = "date" name = "service_date">
+                <br>
+
+                <br>
+
+                <select id = "time" name = "timeOfDay">
+                    <option value = "morning">Morning</option>
+                    <option value = "afternoon">Afternoon</option>
+                    <option value = "evening">Evening</option>
+                </select>
+            </fieldset>
+            <br>
+            <button type = "submit" value = "Submit">Submit</button>
+
+        </form>
+    </fieldset>
+
+    <footer> Phone Number: 1-(800)-259-2468 | E-mail: laffertybush@outlook.com | &copy;Copyright 2020 HTML</footer>
+</body>
